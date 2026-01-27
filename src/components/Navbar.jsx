@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 z-50 w-full border-b border-zinc-100 bg-white/70 backdrop-blur-md">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-                <div className="text-xl font-bold tracking-tight">
+                <div className="text-2xl font-black tracking-tighter text-[#4e73df]">
                     HomeServo
                 </div>
 
@@ -17,10 +17,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                    <button className="w-24 rounded-lg border border-zinc-100 py-2 text-[14px] font-semibold text-zinc-900 shadow-sm transition-all hover:border-[#91acf3] hover:text-[#91acf3]">
+                    <button className="w-24 rounded-lg border border-zinc-100 py-2 text-[14px] font-semibold text-zinc-900 shadow-sm transition-all hover:border-[#4e73df] hover:text-[#4e73df]">
                         Login
                     </button>
-                    <button className="w-24 rounded-lg border border-zinc-100 py-2 text-[14px] font-semibold text-zinc-900 shadow-sm transition-all hover:border-[#91acf3] hover:text-[#91acf3]">
+                    <button className="w-24 rounded-lg border border-zinc-100 py-2 text-[14px] font-semibold text-zinc-900 shadow-sm transition-all hover:border-[#4e73df] hover:text-[#4e73df]">
                         Sign Up
                     </button>
                 </div>
