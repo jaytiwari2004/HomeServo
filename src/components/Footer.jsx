@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 
 const Footer = () => {
@@ -30,8 +31,8 @@ const Footer = () => {
                     <div>
                         <h4 className="text-sm font-bold text-zinc-900 mb-6">Get Support</h4>
                         <ul className="space-y-4">
-                            <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">FAQ</a></li>
-                            <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Contact Us</a></li>
+                            <li><Link href="/faq" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">FAQ</Link></li>
+                            <li><Link href="/support" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Contact Us</Link></li>
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">How It Works</a></li>
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Service Guarantee</a></li>
                         </ul>
@@ -43,7 +44,7 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">About Us</a></li>
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Careers</a></li>
-                            <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Blog</a></li>
+                            <li><Link href="/blog" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Blog</Link></li>
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Privacy Policy</a></li>
                             <li><a href="#" className="text-sm text-zinc-500 hover:text-blue-500 transition-colors">Terms & Conditions</a></li>
                         </ul>

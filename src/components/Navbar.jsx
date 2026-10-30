@@ -36,39 +36,32 @@ const Navbar = () => {
                 {/* Navigation */}
                 <div className="hidden items-center gap-8 lg:flex">
                     <Link
-                        href="/"
-                        className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
-                    >
-                        Explore
-                    </Link>
-
-                    <Link
                         href="/bookings"
                         className="text-[14px] font-semibold text-[#4e73df] transition-colors hover:text-[#3f5fc4]"
                     >
                         My Bookings
                     </Link>
 
-                    <a
-                        href="#"
-                        className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
-                    >
-                        Support
-                    </a>
-
-                    <a
-                        href="#"
-                        className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
-                    >
-                        FAQ
-                    </a>
-
-                    <a
-                        href="#"
+                    <Link
+                        href="/blog"
                         className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
                     >
                         Blog
-                    </a>
+                    </Link>
+
+                    <Link
+                        href="/support"
+                        className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
+                    >
+                        Support
+                    </Link>
+
+                    <Link
+                        href="/faq"
+                        className="text-[14px] font-medium text-zinc-600 transition-colors hover:text-black"
+                    >
+                        FAQ
+                    </Link>
 
                     {/* <a
                         href="#"
